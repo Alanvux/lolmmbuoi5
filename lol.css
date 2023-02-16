@@ -1,0 +1,155 @@
+.header {
+  width: 100vw;
+  height: 825px;
+}
+
+.video{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  font-size: 20px;
+  color: aliceblue;
+  line-height: 25.28px;
+
+}
+
+.logo {
+
+  width: 240px;
+  height: 105.8px;
+}
+
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.champions {
+  gap: 30px;
+  display: grid;
+  grid-template-columns:  328px 328px 328px 328px;
+  grid-template-rows: 450px 450px 450px;
+}
+.grid-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.champ1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: #0E4C67;
+}
+
+.champ2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: #0E4C67;
+}
+
+.champ3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: #0E4C67;
+}
+
+.champ4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: #0E4C67;
+}
+
+.champ5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #0E4C67;
+}
+
+.champ6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #0E4C67;
+}
+
+.champ7 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #0E4C67;
+}
+
+.champ8 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #0E4C67;
+}
+
+.champ9 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: #0E4C67;
+}
+
+.champ10 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: #0E4C67;
+}
+
+.champ11 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: #0E4C67;
+}
+
+.champ12 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: #0E4C67;
+}
+.imgchamp {
+  width: 328px;
+  height: 370px;
+}
+
+.name-box{
+  display: flex;
+  justify-content: center;
+
+}
